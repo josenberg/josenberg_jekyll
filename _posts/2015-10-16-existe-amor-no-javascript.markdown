@@ -1,25 +1,38 @@
 ---
 layout: post
-title:  "Existe amor no JavaScript!"
+title:  "Existe amor no JavaScript"
 date:   2015-10-16 21:25:20
 categories: JavaScript 
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Imagine uma pessoa, você conheceu ela se apaixonou e em menos de trinta dias ela já estava casada com você, depois de algum tempo você foi percebendo alguns defeitos nela, essa pessoa era meio maniaca, de tempos em tempos ela simplesmente enlouquecia; Alem disso você achou que ela tinha uma personalidade especifica que combinava com a sua, mas infelizmente ela não era tão orientada à objetos como você imaginava.
 
-Jekyll also offers powerful support for code snippets:
+Assim é o JavaScript, ainda nessa analogia imagine que o EcmaScript 6 é a terapia que promete (e provavelmente) vai salvar seu relacionamento, você com certeza ama as funções dela, mas seria bom se ela tivesse symbols, ou ainda uma daquelas setinhas maneiras do ruby, não?
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Pois bem, ela agora tem. Seu amor que andava meio triste agora tem mais um **grande** motivo para voltar à pegar fogo.
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+Eu acabei encontrando um [documento](https://github.com/lukehoban/es6features#readme) muito interessante sobre as coisas bacanas do EcmaScript2015, então eu vou me basear nele e criar alguns artigos explicando melhor o uso e o razão de alguma das features abaixo:
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+* [arrows](http://josenberg.com.br/ecmascript-arrows/)
+* [classes](http://josenberg.com.br/ecmascript-classes/)
+* enhanced object literals
+* template strings
+* destructuring
+* default + rest + spread
+* let + const
+* iterators + for..of
+* generators
+* unicode
+* modules
+* module loaders
+* map + set + weakmap + weakset
+* proxies
+* symbols
+* subclassable built-ins
+* promises
+* math + number + string + array + object APIs
+* binary and octal literals
+* reflect api
+* tail calls
+
+Todos esses itens são um jeito melhor de trabalhar com JavaScript, o simples fato de entender essa lista vai te fazer um melhor programador. Então por favor leia essa lista e você vai se apaixonar (ainda mais?) pelo JavaScript, a garota mais gatinha do quarteirão.
