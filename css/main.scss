@@ -50,3 +50,35 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+h1, h2 {
+	font-family: "VT323";
+}
+
+.page-content {
+	.wrapper {
+
+		h1.section-title {
+			&:before {
+				content: '>';
+			}
+		}
+
+		.series-content {
+			h3 {
+				max-width: 20%;
+				text-align: center;
+				font-size: 16px;
+				line-height: 17px;
+				margin-top: 10px;
+			}
+		}
+
+		
+	}
+}
+
+.serie-thumbnail {
+	display: block;	
+	max-width: 20%;
+}
