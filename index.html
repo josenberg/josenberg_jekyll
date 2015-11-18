@@ -1,24 +1,35 @@
 ---
 layout: default
 ---
-<h1> Testing the server</h1>
-
+<h1> testing the server </h1>
 <div class="home">
+    <div class="series-content">
+        <h1 class="section-title">Series</h1>        
+        <div class="serie-content">
+            <img src="{{site.url}}/assets/js.png" class='serie-thumbnail' />        
+            <h3> Existe amor no JavaScript. </h3>
+        </div>
+        <div class="serie-content">
+            <img src="{{site.url}}/assets/mongo.png" class='serie-thumbnail' />        
+            <h3> MongoDB & nodeJS. </h3>
+        </div>
 
-  <h1 class="page-heading">Posts</h1>
+        
+    </div>
+    <div class="posts-content">
+        <h1 class="section-title">Posts</h1>
+        <ul class="post-list">
+            {% for post in site.posts %}
+                    <li>
+                    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                    <h2>
+                        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                    </h2>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
