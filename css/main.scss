@@ -54,9 +54,12 @@ $on-laptop:        800px;
 h1, h2 {
 	font-family: "VT323";
 }
+<<<<<<< HEAD
 strong {
 			font-weight: bold;
 		}
+=======
+>>>>>>> 04269d9678edb19a3d7708aa063ff07c0a0bd13b
 header.site-header {
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -74,10 +77,18 @@ header.site-header {
 	.author-description {
 		font-size: 13px;
 		text-align: justify;
+<<<<<<< HEAD
 		margin-top: 20px;		
 		width: 50%;
 		max-width: 100%;
 		
+=======
+		margin-top: 20px;
+		width: 350px;
+		strong {
+			font-weight: bold;
+		}
+>>>>>>> 04269d9678edb19a3d7708aa063ff07c0a0bd13b
 	}
 
 	.site-title, .site-title:visited {
@@ -132,6 +143,7 @@ header.site-header {
 			
 		}
 		.post-list {
+<<<<<<< HEAD
 			> li {
 				margin-bottom: 20px;
 			}
@@ -141,6 +153,11 @@ header.site-header {
 				margin-top: 0px;
 				margin-bottom: 0px;
 				line-height: 17px;
+=======
+			h2 {
+				margin-top: 0px;
+				margin-bottom: 0px;
+>>>>>>> 04269d9678edb19a3d7708aa063ff07c0a0bd13b
 			}
 		}
 
@@ -148,4 +165,7 @@ header.site-header {
 	}
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 04269d9678edb19a3d7708aa063ff07c0a0bd13b
