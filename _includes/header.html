@@ -1,10 +1,12 @@
 <header class="site-header">
   <div class="wrapper">
     <a class="site-title" href="{{ site.baseurl }}/">Josenberg</a>
-    <p> Um pacato programador. </p>
-    <p class='author-description'> 
-      Saudações, <br />  
-      Meu nome é Philipe Godoy, eu sou desenvolvedor web, um pacato desenvolvedor web, nesse espaço eu vou acabar escrevendo sobre algumas tecnologias em que eu encontrar em minha carreira. Programar não é tão facil quando dizem por ai, cada feature e cada bug são como uma pequena batalha, se você esta começando agora, <strong>take it easy</strong>, leia com calma, pense com calma, é mais simples se for desse jeito. 
-    </p>
+	<p> Um pacato programador. </p>
+    {% if page.url == "/index.html" %}
+   		<p class='author-description'> 
+	      Saudações, <br />  
+	      Meu nome é Philipe Godoy, eu sou desenvolvedor web, um pacato desenvolvedor web, nesse espaço eu vou acabar escrevendo sobre algumas tecnologias em que eu encontrar em minha carreira. Programar não é tão facil quando dizem por ai, cada feature e cada bug são como uma pequena batalha, se você esta começando agora, <strong>take it easy</strong>, leia com calma, pense com calma, é mais simples se for desse jeito. 
+	    </p>
+	{% endif %}    
   </div>
 </header>
